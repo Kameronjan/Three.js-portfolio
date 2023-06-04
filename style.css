@@ -42,8 +42,6 @@ canvas {
   left: 0;
 }
 
-
-
   header {
     background: var(--dark-bg);
     grid-column: 2 / span 5;
