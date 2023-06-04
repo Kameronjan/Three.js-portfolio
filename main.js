@@ -60,7 +60,7 @@ Array(200).fill().forEach(addStar);
 
 // Background
 
-const spaceTexture = new THREE.TextureLoader().load('space.jpg');
+const spaceTexture = new THREE.TextureLoader().load('f6c6784cecce8d9bf2af347f4cda924f.jpg');
 scene.background = spaceTexture;
 
 // Avatar
@@ -73,7 +73,7 @@ scene.add(kameron);
 
 // Moon
 
-const moonTexture = new THREE.TextureLoader().load('8932f506b1eae4262761b60e4fc7a0a3.jpg');
+const moonTexture = new THREE.TextureLoader().load('d895cc5d6859bf859e13098e37c03981.jpg');
 const normalTexture = new THREE.TextureLoader().load('rocky_texture_199750.jpg');
 
 const moon = new THREE.Mesh(
