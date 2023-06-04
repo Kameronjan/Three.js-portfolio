@@ -49,6 +49,9 @@ function addStar() {
   scene.add(star);
 }
 
+
+Array(200).fill().forEach(addStar);
+
 function animate() {
   requestAnimationFrame( animate );
   torus.rotation.x += 0.01;
