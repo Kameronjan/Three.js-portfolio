@@ -49,7 +49,7 @@ header {
 section {
     border-radius: 10px;
     grid-column: 2 / 8;
-    padding: 1rem;
+    padding: 20px;
     background: var(--dark-bg);
     font-size: 1.25rem;
     line-height: 1.5;
