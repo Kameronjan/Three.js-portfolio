@@ -64,11 +64,13 @@ section {
   }
 
   blockquote p {
+    border-radius: 10px;
     color: black;
     background-color: white;
     font-size: 4rem;
     display: inline;
-    line-height: 1;
+    line-height: 1.5;
+    padding: 20px;
   }
 
   .left {
